@@ -16,3 +16,23 @@ if number > 0
 else
     puts "#{number} is negative"
 end
+puts "x is equal to?"
+x = gets.to_i
+puts "y is equal to?"
+y = gets.to_i
+if x > y
+    puts "x is greater than y!"
+elsif x < y 
+    puts "x is less than y!"
+else 
+    puts "x equals y!"
+end
+# option 1
+# if x != 10
+#     puts "i get printed"
+# end
+
+# option 2
+unless x == 10
+ puts 'i get printed'
+end
