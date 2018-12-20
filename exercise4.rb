@@ -43,3 +43,9 @@ elsif secret_number == 5
 else
 puts "try again"
 end
+
+counter = 1
+while counter < 4
+    puts "counter currently at #{counter}."
+    counter += 1 
+end
